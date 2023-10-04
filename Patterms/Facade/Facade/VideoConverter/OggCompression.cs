@@ -1,0 +1,3 @@
+class OggCompression : BaseCompressionCodec
+{
+}

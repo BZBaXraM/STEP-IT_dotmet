@@ -1,0 +1,37 @@
+namespace Bridge.Bridge;
+
+class RemoteControl
+{
+    protected IDevice? _device;
+
+    public RemoteControl(IDevice? device)
+    {
+        _device = device;
+    }
+
+    public void TogglePower()
+    {
+        if (_device?.IsEnabled ?? false) _device.Disable();
+        else _device?.Enable();
+    }
+
+    public void VolumeDown()
+    {
+        if (_device is not null) _device.Volume--;
+    }
+
+    public void VolumeUp()
+    {
+        if (_device is not null) _device.Volume++;
+    }
+
+    public void ChanelDown()
+    {
+        if (_device is not null) _device.Channel--;
+    }
+
+    public void ChanelUp()
+    {
+        if (_device is not null) _device.Channel++;
+    }
+}

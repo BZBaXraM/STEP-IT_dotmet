@@ -1,0 +1,4 @@
+interface ISerializer
+{
+    void Serialize();
+}

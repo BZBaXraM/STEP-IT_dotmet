@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single_Responsibility", "Single_Responsibility\Single_Responsibility.csproj", "{7388A28A-9F16-4899-A973-226B6A8D84BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open_Close", "Open_Close\Open_Close.csproj", "{492500DF-AE40-4112-8C8A-40832CB0E21B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LISP", "LISP\LISP.csproj", "{023C66E8-C420-42A0-81A4-DDC2EC8C779E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7388A28A-9F16-4899-A973-226B6A8D84BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7388A28A-9F16-4899-A973-226B6A8D84BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7388A28A-9F16-4899-A973-226B6A8D84BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7388A28A-9F16-4899-A973-226B6A8D84BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492500DF-AE40-4112-8C8A-40832CB0E21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492500DF-AE40-4112-8C8A-40832CB0E21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492500DF-AE40-4112-8C8A-40832CB0E21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492500DF-AE40-4112-8C8A-40832CB0E21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{023C66E8-C420-42A0-81A4-DDC2EC8C779E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023C66E8-C420-42A0-81A4-DDC2EC8C779E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023C66E8-C420-42A0-81A4-DDC2EC8C779E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023C66E8-C420-42A0-81A4-DDC2EC8C779E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
